@@ -10491,10 +10491,69 @@
       "links": {},
       "address": "0xe381292f9d93e477BBdCEC1A35b96e8C29f39498",
       "transactionHash": "0x52fbdb968a9d7af6f14f40d586bb830a4c9865951df5c92c085786627c7fc21c"
+    },
+    "1603203023812": {
+      "events": {
+        "0x4627c48065af2a9648cbecdd4b9da340c00e501243cd49a8a71c30c987e8b761": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "sku",
+              "type": "uint256"
+            }
+          ],
+          "name": "LogForSale",
+          "type": "event"
+        },
+        "0x5a98827d06afe0e04647b3aed26f1ffb77171ad9ac41603c4ef623a6638798c1": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "sku",
+              "type": "uint256"
+            }
+          ],
+          "name": "LogReceived",
+          "type": "event"
+        },
+        "0xeaf695929fec8154f0eafe7248c0e16855eb9ad09e623be92f669e544d53e856": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "sku",
+              "type": "uint256"
+            }
+          ],
+          "name": "LogShipped",
+          "type": "event"
+        },
+        "0xe64ca8c671e48636f85f3008c1dd538e36bfa74fb6f2790b56b72fcc33b879ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "sku",
+              "type": "uint256"
+            }
+          ],
+          "name": "LogSold",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x873b1920255056f2593e9D7AB77834753B131f3a",
+      "transactionHash": "0xb0e24ec0ea5860c0ea76e5c5f3a903e0fc487807c5e7a276c10492369383e684"
     }
   },
   "schemaVersion": "3.2.5",
-  "updatedAt": "2020-10-10T06:19:27.155Z",
+  "updatedAt": "2020-10-20T14:44:32.099Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
